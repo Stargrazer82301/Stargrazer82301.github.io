@@ -1,6 +1,7 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
 @import url("https://fonts.googleapis.com/css?family=Bitter:300italic,600italic,300,600");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:300italic,600italic,300,600");
 
 /*
 	Dimension by HTML5 UP
@@ -160,7 +161,8 @@
 		font-weight: 600;
 		line-height: 1.5;
 		margin: 0 0 1rem 0;
-		text-transform: uppercase;
+		font-variant: small-caps;		
+		text-transform: normal;
 		letter-spacing: 0.2rem;
 	}
 
@@ -347,7 +349,8 @@
 		letter-spacing: 0.2rem;
 		line-height: 1.5;
 		margin: 0 0 1rem 0;
-		text-transform: uppercase;
+		text-transform: normal;
+		font-variant: small-caps;
 	}
 
 	input[type="text"],
@@ -616,7 +619,7 @@
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.5;
+			opacity: 0.2;
 			position: absolute;
 			top: 0;
 			width: 100%;
@@ -659,12 +662,12 @@
 
 		.image.main {
 			display: block;
-			margin: 2.5rem 0;
+			margin: 0rem auto 0rem auto; /*2.5rem 0;*/
 			width: 100%;
 		}
 
 			.image.main img {
-				width: 100%;
+				width: 100%; 
 			}
 
 		@media screen and (max-width: 736px) {
@@ -739,10 +742,10 @@
 					border-radius: 100%;
 					box-shadow: inset 0 0 0 1px #ffffff;
 					display: inline-block;
-					height: 2.25rem;
-					line-height: 2.25rem;
+					height: 3rem;
+					line-height: 3rem;
 					text-align: center;
-					width: 2.25rem;
+					width: 3rem;
 				}
 
 					ul.icons li a:hover {
@@ -969,7 +972,8 @@
 		padding: 0 1.25rem 0 1.35rem;
 		text-align: center;
 		text-decoration: none;
-		text-transform: uppercase;
+		text-transform: normal;
+		font-variant: normal;
 		white-space: nowrap;
 	}
 
@@ -1263,9 +1267,10 @@
 				}
 
 			#header .content p {
-				text-transform: uppercase;
-				letter-spacing: 0.2rem;
-				font-size: 0.8rem;
+				text-transform: normal;
+				font-variant: normal;
+				letter-spacing: 0.05rem;
+				font-size: 1.0rem;
 				line-height: 2;
 			}
 
@@ -1296,9 +1301,10 @@
 					height: 2.75rem;
 					line-height: 2.75rem;
 					padding: 0 1.25rem 0 1.45rem;
-					text-transform: uppercase;
-					letter-spacing: 0.2rem;
-					font-size: 0.8rem;
+					text-transform: normal;
+				    font-variant: small-caps;
+					letter-spacing: 0.175rem;
+					font-size: 0.95rem;
 					border-bottom: 0;
 				}
 
@@ -1479,9 +1485,12 @@
 			padding: 4.5rem 2.5rem 1.5rem 2.5rem ;
 			position: relative;
 			width: 40rem;
-			max-width: 100%;
-			background-color: rgba(27, 31, 34, 0.85);
+			max-width: 85%;
+			background-color: rgba(27, 31, 34, 0.75);
 			border-radius: 4px;
+			font-size: 0.7rem;
+			text-align: justify;
+			text-justify: inter-word;
 			opacity: 0;
 		}
 
@@ -1572,10 +1581,11 @@
 
 		#footer .copyright {
 			letter-spacing: 0.2rem;
-			font-size: 0.6rem;
+			font-size: 0.65rem;
 			opacity: 0.75;
 			margin-bottom: 0;
-			text-transform: uppercase;
+			text-transform: normal;
+			font-variant: small-caps;
 		}
 
 		body.is-article-visible #footer {
