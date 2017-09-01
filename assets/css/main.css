@@ -663,7 +663,7 @@
 		.image.main {
 			display: block;
 			margin: 0rem auto 0rem auto; /*2.5rem 0;*/
-			width: 100%;
+			width: 70%;
 		}
 
 			.image.main img {
@@ -1488,7 +1488,7 @@
 			max-width: 85%;
 			background-color: rgba(27, 31, 34, 0.75);
 			border-radius: 4px;
-			font-size: 0.7rem;
+			font-size: 0.85rem;
 			text-align: justify;
 			text-justify: inter-word;
 			opacity: 0;
@@ -1603,3 +1603,17 @@
 		body.is-loading #footer {
 			opacity: 0;
 		}
+		
+/* Over-Under Superscript-Subscript Class */
+
+span.over-under {
+  position: relative;
+  top: 1em;
+  display: inline-block;
+}
+span.over-under > .over {
+  display: table-row;
+}
+span.over-under > .under {
+  display: table-row;
+}
