@@ -1270,8 +1270,8 @@
 				text-transform: normal;
 				font-variant: normal;
 				letter-spacing: 0.05rem;
-				font-size: 1.0rem;
-				line-height: 2;
+				font-size: 0.85rem;
+				line-height: 1.65;
 			}
 
 		#header nav ul {
