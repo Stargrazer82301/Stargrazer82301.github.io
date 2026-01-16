@@ -1618,3 +1618,17 @@ span.over-under > .over {
 span.over-under > .under {
   display: table-row;
 }
+
+/* New code to handle having photo of me in frame */
+
+.icon.photo {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.icon.photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
